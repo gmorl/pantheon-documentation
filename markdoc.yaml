@@ -1,1 +1,9 @@
-{}
+wiki-name: "Pantheon Documentation"
+
+markdown:
+  safe-mode: escape
+  output-format: xhtml1
+  extensions: [codehilite, def_list]
+  extension-configs:
+    codehilite:
+      force_linenos: true
